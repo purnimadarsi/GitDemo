@@ -10,6 +10,7 @@ public class GoogleSearchPage {
 	public static WebElement textbox_search(WebDriver driver) {
 		 element = driver.findElement(By.name("q"));
 		return element;
+             System.out.println("hello");
 	}
     public static WebElement button_search(WebDriver driver) {
     	element = driver.findElement(By.name("btnK"));

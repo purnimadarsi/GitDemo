@@ -16,6 +16,7 @@ public class HomePage extends BasePage{
 	}
 	public WebElement getHeader() {
 		return getElement(header);
+            System.out.println("hello");
 	}
 
 	
