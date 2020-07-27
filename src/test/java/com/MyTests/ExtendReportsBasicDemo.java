@@ -15,6 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ExtendReportsBasicDemo {
 	public static void main(String[] args) {
+                system.out.println("changed the code in the basicdemo");
 		//start Reporters
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extentReports.html");
 		// create ExtentReports and attach reporter(s)

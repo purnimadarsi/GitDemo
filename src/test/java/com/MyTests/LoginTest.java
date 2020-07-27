@@ -12,6 +12,7 @@ public class LoginTest extends BaseTest{
 	@JiraPolicy(logTicketReady=true)
 	@Test(priority=1)
 	public void verfiyLoginPageTitleTest() {
+              system.out.println("changed the code in the pagetitletest");
 		String title = page.getInstance(LoginPage.class).getLoginPageTitle();
 		System.out.println(title);
 		Assert.assertEquals(title, "HubSpot Login");

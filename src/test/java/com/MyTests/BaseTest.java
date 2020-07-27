@@ -13,7 +13,7 @@ import com.mypages.Page;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-
+         system.out.println("changed the code in the basetest");
 	public  WebDriver driver;
 	public Page page;
 	@BeforeMethod
