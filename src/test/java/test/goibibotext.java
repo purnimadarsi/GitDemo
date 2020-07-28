@@ -49,6 +49,8 @@ public class goibibotext {
 	 	Thread.sleep(1000);
 
 	 	ele1.sendKeys(Keys.DOWN);
+                 ele1.sendKeys(Keys.DOWN);
+
 	 	ele1.sendKeys(Keys.DOWN);
 	 	Thread.sleep(1000);
 	 	ele1.sendKeys(Keys.ENTER);
